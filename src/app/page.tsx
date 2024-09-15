@@ -123,9 +123,9 @@ export default function Page() {
                   Découvrir mes meilleurs projets
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  J'ai pu travailler sur plusieurs projets, que ce soit des
+                  J&rsquo;ai pu travailler sur plusieurs projets, que ce soit des
                   applications web basiques ou des applications complexes. Voici
-                  les meilleurs projets d'entre eux:
+                  les meilleurs projets d&rsquo;entre eux:
                 </p>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function Page() {
                 Prendre contact
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Envi de me contacter ? C'est en mail par ici{" "}
+                Envi de me contacter ? C&rsquo;est en mail par ici{" "}
                 <Link
                   href={`mailto:${DATA.contact.social.email.url}`}
                   className="text-blue-500 hover:underline"
