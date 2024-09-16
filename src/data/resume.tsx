@@ -133,7 +133,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/Gurkan-Taner/SimpliSignes",
+          href: "https://github.com/Gurkan-Taner/pneumonIA",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -142,7 +142,7 @@ export const DATA = {
     },
     {
       title: "Pong",
-      href: "https://magicui.design",
+      href: "#",
       dates: "1 day",
       active: true,
       description:
@@ -160,7 +160,7 @@ export const DATA = {
     },
     {
       title: "Jurisconnect",
-      href: "https://llm.report",
+      href: "#",
       dates: "Décembre 2023 - Juillet 2025",
       active: true,
       description:
@@ -177,13 +177,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          type: "C++ backend",
+          href: "https://github.com/ScoutHub/JurisConnect-Backend",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -192,7 +187,7 @@ export const DATA = {
     },
     {
       title: "Crypto webscrapping",
-      href: "https://automatic.chat",
+      href: "",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -207,13 +202,7 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "/crypto.png",
       video: "",
     },
