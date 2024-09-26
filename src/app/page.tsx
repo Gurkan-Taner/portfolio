@@ -123,9 +123,9 @@ export default function Page() {
                   Découvrir mes meilleurs projets
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  J&rsquo;ai pu travailler sur plusieurs projets, que ce soit des
-                  applications web basiques ou des applications complexes. Voici
-                  les meilleurs projets d&rsquo;entre eux:
+                  J&rsquo;ai pu travailler sur plusieurs projets, que ce soit
+                  des applications web basiques ou des applications complexes.
+                  Voici les meilleurs projets d&rsquo;entre eux:
                 </p>
               </div>
             </div>
