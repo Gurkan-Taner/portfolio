@@ -137,26 +137,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/pneumonia.png",
-      video: "",
-    },
-    {
-      title: "Pong",
-      href: "#",
-      dates: "1 day",
-      active: true,
-      description:
-        "Jeu-vidéo populaire Pong codé en C avec la librairie graphique Raylib.",
-      technologies: ["C", "Raylib"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/ScoutHub/pong-raylib",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/pong.png",
-      video: "",
+      image: "",
+      video: "/pneumonia.mov",
     },
     {
       title: "Jurisconnect",
@@ -204,6 +186,24 @@ export const DATA = {
       ],
       links: [],
       image: "/crypto.png",
+      video: "",
+    },
+    {
+      title: "Pong",
+      href: "#",
+      dates: "1 day",
+      active: true,
+      description:
+        "Jeu-vidéo populaire Pong codé en C avec la librairie graphique Raylib.",
+      technologies: ["C", "Raylib"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ScoutHub/pong-raylib",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pong.png",
       video: "",
     },
   ],
