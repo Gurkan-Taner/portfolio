@@ -203,22 +203,72 @@ export const DATA = {
   ],
   codingGames: [
     {
-      title: "PneumonIA",
+      title: "Puissance 4",
       href: "",
-      dates: "Avril 2024 - Juin 2024",
+      dates: "2 jours",
       active: true,
-      description:
-        "Projet python qui utilise différent modèle de machine learning (depuis Scikit) pour détecter si un patient est atteint de pneumonie ou non depuis une radiographie.",
-      technologies: ["Python", "Scikit", "Streamlit"],
+      description: "",
+      technologies: ["C", "Raylib"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/Gurkan-Taner/pneumonIA",
+          href: "https://github.com/ScoutHub/puissance4-raylib",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "/projects/pneumonia.mov",
+      image: "/coding_games/puissance4.png",
+      video: "",
+    },
+    {
+      title: "Pong",
+      href: "",
+      dates: "1 jour",
+      active: true,
+      description: "",
+      technologies: ["C", "Raylib"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ScoutHub/pong-raylib",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/coding_games/pong.png",
+      video: "",
+    },
+    {
+      title: "Space Invader",
+      href: "",
+      dates: "3 jours",
+      active: true,
+      description: "",
+      technologies: ["C", "Raylib"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ScoutHub/SpaceInvader-raylib",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/coding_games/space_invader.png",
+      video: "",
+    },
+    {
+      title: "Tic Tac Toe",
+      href: "",
+      dates: "2 jours",
+      active: true,
+      description: "",
+      technologies: ["C", "Raylib"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ScoutHub/CTicTacToe",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/coding_games/tictactoe.png",
+      video: "",
     },
   ],
 } as const;
