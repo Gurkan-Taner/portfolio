@@ -1,4 +1,4 @@
-import { HackathonCard } from "@/components/hackathon-card";
+import Calendar from "@/components/calendar";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
@@ -205,6 +205,7 @@ export default function Page() {
                 </Link>{" "}
                 ou sur mes réseaux sociaux X ou Linkedin.
               </p>
+              <Calendar />
             </div>
           </BlurFade>
         </div>

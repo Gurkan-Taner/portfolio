@@ -168,6 +168,17 @@ export const DATA = {
       video: "",
     },
     {
+      title: "E-psy",
+      href: "https://e-psy.vercel.app/",
+      dates: "Novembre 2024 - Aujourd'hui",
+      active: true,
+      description:
+        "Plateforme web conçue pour les personnes en détresse émotionnelles. L'utilisateur peut soit décider de discuter soit être la personne qui écoute, une sorte de thérapie.",
+      technologies: ["Python", "Websocket", "Next"],
+      image: "",
+      video: "/projects/e-psy.mov",
+    },
+    {
       title: "Crypto webscrapping",
       href: "",
       dates: "Septembre 2024 - Janvier 2025",
